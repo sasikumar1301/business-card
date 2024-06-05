@@ -1,0 +1,159 @@
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    margin-top: 20px;
+    padding: 30px 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+main {
+
+    padding: 30px 0;   
+    height: 70vh;
+    width: 23vw;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom, #fff 0%, #fff 3%, transparent 3%, transparent 95%, #000000 95%, #000000 100%);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding: 20px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: transparent;
+    
+    
+}
+
+
+/* home */
+.h-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.img{
+    margin-bottom: -30px;
+
+}
+.image{
+    border-radius: 30px;
+}
+.activity{
+    text-align: center;
+    font-size: 25px;
+    color: #80d2af;
+
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    color: #80d2af;
+}
+.h3{
+    margin-top: -10px;
+    color: aquamarine;
+}
+.dis{
+    margin-top: -10px;
+}
+
+/* portfolio */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.portfolio-item {
+    flex: 1 1 calc(50% - 10px);
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* footer */
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #333;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 60px;
+    box-shadow: 0px 8px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+
+}
+
+.li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.icon {
+    color: #fff;
+    background-color: #89c334;
+    padding: 10px;
+    border-radius: 20px;
+}
+.span{
+    font-size: 8px;
+}
